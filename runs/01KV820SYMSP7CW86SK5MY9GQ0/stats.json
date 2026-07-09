@@ -1,0 +1,50 @@
+{
+  "overall": 0.85,
+  "per_category": {
+    "knowledge-update": {
+      "accuracy": 0.9103,
+      "n": 78
+    },
+    "multi-session": {
+      "accuracy": 0.7744,
+      "n": 133
+    },
+    "single-session-assistant": {
+      "accuracy": 0.875,
+      "n": 56
+    },
+    "single-session-preference": {
+      "accuracy": 0.8333,
+      "n": 30
+    },
+    "single-session-user": {
+      "accuracy": 0.9571,
+      "n": 70
+    },
+    "temporal-reasoning": {
+      "accuracy": 0.8271,
+      "n": 133
+    }
+  },
+  "p95": 30.55,
+  "failures": 0,
+  "fallbacks": 0,
+  "safety_counter": 0,
+  "tokens_in_total": 5256901,
+  "tokens_out_total": 116422,
+  "ingest": {
+    "ingest_seconds": 3277.461,
+    "records_ingested": 122374,
+    "records_per_sec": 37.34,
+    "db_bytes_after_ingest": 1937366039
+  },
+  "energy": {
+    "sample_count": 87,
+    "mean_power_w": 62.86,
+    "energy_mj_start": 14215261251,
+    "energy_mj_end": 14540685121,
+    "energy_mj_delta": 325423870,
+    "energy_wh": 90.395519,
+    "rail": "gpu-only (GB10 Grace CPU rail unmeasurable, firmware-locked)"
+  }
+}

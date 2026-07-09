@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use these evaluation artefacts, please cite the paper."
+title: "EDN CONFIRM-1: June 2026 Evaluation Results"
+abstract: >-
+  Sealed reproduction artefacts for the CONFIRM-1 confirmation campaign
+  evaluating EDN, a provenance-governed external memory middleware for
+  multi-session LLM assistants, on LongMemEval-S. Fifteen sealed run
+  packages across five configurations, three runs each.
+type: dataset
+authors:
+authors:
+  - name: "TensorPRO"
+    city: Brisbane
+    country: AU
+date-released: 2026-06-19
+license: CC-BY-4.0
+keywords:
+  - large language models
+  - conversational memory
+  - provenance
+  - retrieval
+  - LongMemEval
+  - evaluation
+references:
+  - type: article
+    title: >-
+      EDN - Episodic Dialogue Network: Provenance-Governed External Memory
+      Middleware for Multi-Session LLM Assistants
+    authors:
+      - family-names: Ibanez
+        given-names: Luis
+    year: 2026
+    notes: "Preprint. DOI to be added on publication."
+  - type: article
+    title: >-
+      LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory
+    authors:
+      - family-names: Wu
+        given-names: Di
+    year: 2025
+    notes: "Benchmark used under the upstream MIT licence."
